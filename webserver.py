@@ -2,8 +2,8 @@ from threading import Thread
 from flask import Flask
 
 app = Flask('')
- @app.route('/')
- def home():
+@app.route('/')
+def home():
     return 'Bot running'
 
 def run ():

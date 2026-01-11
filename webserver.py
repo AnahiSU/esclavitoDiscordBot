@@ -6,8 +6,8 @@ app = Flask('')
 def home():
     return 'Bot running'
 
-def run ():
-    app.run(host="0.0.0.0", port:8080)
+def run():
+    app.run(host="0.0.0.0", port=8080)
 
 def keep_alive():
     t = Thread(target=run)
